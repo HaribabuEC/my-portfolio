@@ -12,7 +12,7 @@ function scrollToSection(targetId) {
 
 navLinks.forEach(link => {
   link.addEventListener('click', () => {
-    const t = link.dataset.target;
+    const t = link.dataset.target;  
     if (t) {
       scrollToSection(t);
       navLinks.forEach(l => l.classList.remove('active'));
