@@ -42,7 +42,7 @@ window.addEventListener('scroll', () => {
 const downloadBtn = document.getElementById('downloadResume');
 if (downloadBtn) {
   downloadBtn.addEventListener('click', () => {
-    const url = 'Haribabu_resume.pdf';
+    const url = 'src/assets/Haribabu_resume.pdf';
     const a = document.createElement('a');
     a.href = url;
     a.download = 'Haribabu_Resume.pdf';
