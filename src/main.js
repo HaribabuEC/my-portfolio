@@ -1,5 +1,5 @@
 // import './style.css';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 const navLinks = Array.from(document.querySelectorAll('.nav-link'));
 const sections = Array.from(document.querySelectorAll('section'));
@@ -69,20 +69,20 @@ if (contactForm) {
       return;
     }
 
-    emailjs.init('iu-XBKWwR145eFgMo');
-    emailjs.send("service_wyvsikq", "template_1k8pc58", {
-      name: name,
-      phone: phone,
-      email: email,
-      message: message
-    })
-      .then(() => {
-        alert('Thanks! Your message has been sent.');
-        contactForm.reset();
-      })
-      .catch((err) => {
-        console.error(err);
-        alert('Something went wrong. Please try again.');
-      });
+    // emailjs.init('iu-XBKWwR145eFgMo');
+  //   emailjs.send("service_wyvsikq", "template_1k8pc58", {
+  //     name: name,
+  //     phone: phone,
+  //     email: email,
+  //     message: message
+  //   })
+  //     .then(() => {
+  //       alert('Thanks! Your message has been sent.');
+  //       contactForm.reset();
+  //     })
+  //     .catch((err) => {
+  //       console.error(err);
+  //       alert('Something went wrong. Please try again.');
+  //     });
   });
 }
