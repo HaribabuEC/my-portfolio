@@ -233,7 +233,7 @@ body {
 /* hero */
 .hero {
   height: 100vh;
-  background-image: url('Front_End_Developer_Job_Description.avif');
+  background-image: url('assets/Front_End_Developer_Job_Description.avif');
   background-size: cover;
   background-position: center;
   display: flex;
